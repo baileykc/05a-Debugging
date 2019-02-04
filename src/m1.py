@@ -290,7 +290,7 @@ def broken_5(circle, window):
       :type window: rg.RoseWindow
     """
     circle.attach_to(window)
-    square = rg.Square(circle.center, 50)
+    square = rg.Square(circle.center, 60)
     square.outline_color = circle.fill_color
     square.attach_to(window)
     window.render()
